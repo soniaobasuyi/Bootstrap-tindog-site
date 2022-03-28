@@ -78,7 +78,7 @@ p {
 
 .dog-image {
     width: 60%;
-    transform: rotate(25deg);
+    transform: rotate(26deg);
     position: absolute;
     right: 30%;
 }
