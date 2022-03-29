@@ -1,10 +1,10 @@
 body {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Montserrat';
     text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Montserrat-Black';
 }
 
 p {
@@ -14,10 +14,9 @@ p {
 /* Headings */
 
 .big-heading {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Montserrat-Black';
     font-size: 3.5rem;
     line-height: 1.5;
-    font-weight: bolder;
 }
 
 .section-heading {
@@ -47,7 +46,7 @@ p {
 .navbar-brand {
     font-size: 2.5rem;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
 }
 
 .navbar {
@@ -60,7 +59,7 @@ p {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: 'Monserrat-Light', sans-serif;
+    font-family: 'Monserrat-Light';
 }
 
 /* Download Buttons */
@@ -71,19 +70,22 @@ p {
 
 /* Title Section */
 
+#title {
+    text-align: left;
+}
+
 #title .container-fluid {
     padding: 3% 15%;
-    text-align: left;
 }
 
 .dog-image {
     width: 60%;
-    transform: rotate(26deg);
+    transform: rotate(25deg);
     position: absolute;
     right: 30%;
 }
 
-/* Features Section */
+/* Features Section */ 
 
 .feature-title {
     font-size: 1.5rem;
